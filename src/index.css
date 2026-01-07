@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+  background-color: #f4ece1; /* Cor de papel envelhecido */
+  background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+  font-family: 'Indie Flower', cursive;
+  color: #4a3728;
+}
+
+.polaroid-card {
+  background: #fff;
+  padding: 15px 15px 30px 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  max-width: 300px;
+  border-bottom: 1px solid #ddd;
+}
+
+.polaroid-img {
+  width: 100%;
+  height: auto;
+  filter: sepia(0.2); /* Deixa a foto levemente vintage */
+}
+
+.washi-tape {
+  width: 100px;
+  height: 30px;
+  background: rgba(188, 143, 143, 0.5); /* Cor rosada rústica */
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}

@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box; /* Fundamental para o padding não "explodir" a largura */
+}
+
+.timeline-item {
+  display: flex;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  align-items: center;
+  /* Garante que o item ocupe a linha toda antes de dividirmos */
+}
+
+/* Fix para a Esquerda (Pares: 0, 2, 4...) */
+.timeline-item.left {
+  justify-content: flex-start;
+  padding-right: 50%; /* Ocupa só a metade esquerda */
+}
+
+/* Fix para a Direita (Ímpares: 1, 3, 5...) */
+.timeline-item.right {
+  justify-content: flex-end;
+  padding-left: 50%; /* Ocupa só a metade direita */
+}
+
+/* Garantir que o conteúdo dentro não quebre */
+.timeline-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.timeline-container {
+  position: relative;
+  width: 100%;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 80px; /* Espaço entre cada mês */
+}
+
+/* Linha central - Estilo barbante */
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background: #8b4513;
+  border-left: 2px dashed rgba(74, 55, 40, 0.3);
+  z-index: 1;
+}
+
+.timeline-item {
+  display: flex;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  align-items: center;
+}
+
+/* Alinhamento Alternado */
+.timeline-item.left { justify-content: flex-start; padding-right: 50%; }
+.timeline-item.right { justify-content: flex-end; padding-left: 50%; }
+
+.timeline-content {
+  max-width: 400px;
+  padding: 0 40px;
+  text-align: center;
+}
+
+/* Coração na linha */
+.timeline-dot {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f4ece1;
+  padding: 5px;
+  z-index: 3;
+}
+
+.dot-inner {
+  color: #8b4513;
+  font-size: 1.2rem;
+}
+
+.extra-text {
+  margin-top: 15px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.1rem;
+  color: #5d4037;
+  max-width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Responsividade: No telemóvel vira coluna única */
+@media (max-width: 768px) {
+  .timeline-line { left: 20px; }
+  .timeline-item.left, .timeline-item.right {
+    padding-left: 50px;
+    padding-right: 0;
+    justify-content: flex-start;
+  }
+  .timeline-dot { left: 20px; }
+}
