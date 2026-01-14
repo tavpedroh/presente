@@ -130,7 +130,7 @@ export const memoriasData = [
     mes: "Outubro",
     data: "24/10/2025",
     titulo: "Primeira Vez dirigindo o Relâmpago MacQueen",
-    imagem: "/assets/13.PrimeiraVezDirigindoRelampagoMacQueen.jpg",
+    imagem: "/assets/13.PrimeiraVezDirigindoRelampagoMacqueen.jpg",
     texto: "Sua primeira vez dirigindo o Relâmpago MacQueen. Que aventura divertida!",
     rotation: "-3deg"
   },
@@ -326,41 +326,14 @@ export const memoriasData = [
   {
     id: 37,
     mes: "Dezembro",
-    data: "05/12/2025",
-    titulo: "Nosso Conchego",
-    imagem: "/assets/38.2MSCalca.jpg",
-    texto: "Aquelas manhãs preguiçosas que eu não trocaria por nada. Só a gente, nosso cobertor e o tempo parando.",
-    rotation: "1deg"
+    data: "24/12/2025",
+    titulo: "Nosso Primeiro Natal",
+    imagem: "/assets/36.2MSPresentes.jpg",
+    texto: "Nossa árvore montada e cheia de sonhos embaixo dela. Que seja o primeiro de muitos natais juntos.",
+    rotation: "-2deg"
   },
-  {
+    {
     id: 38,
-    mes: "Dezembro",
-    data: "14/12/2025",
-    titulo: "Presente Sincronizado",
-    imagem: "/assets/39.2MSCanecas.jpg",
-    texto: "Dizem que quando o casal convive muito, começa a pensar igual. Nossas canecas novas provam que estamos na mesma sintonia!",
-    rotation: "-4deg"
-  },
-  {
-    id: 39,
-    mes: "Dezembro",
-    data: "18/12/2025",
-    titulo: "Mais um Date pra Conta",
-    imagem: "/assets/40.MaisUmDate.jpg",
-    texto: "Um jantar especial para celebrar nós dois. Cada conversa nossa me faz te admirar ainda mais.",
-    rotation: "3deg"
-  },
-  {
-    id: 40,
-    mes: "Dezembro",
-    data: "20/12/2025",
-    titulo: "Date no Posto",
-    imagem: "/assets/41.MaisUmDatePosto.jpg",
-    texto: "Não importa o luxo do lugar, o que importa é a companhia. Até um lanche rápido vira um momento inesquecível com você.",
-    rotation: "-1deg"
-  },
-  {
-    id: 41,
     mes: "Dezembro",
     data: "22/12/2025",
     titulo: "Sessão Nostalgia",
@@ -369,16 +342,52 @@ export const memoriasData = [
     rotation: "2deg"
   },
   {
-    id: 42,
+    id: 39,
     mes: "Dezembro",
-    data: "24/12/2025",
-    titulo: "Nosso Primeiro Natal",
-    imagem: "/assets/36.2MSPresentes.jpg",
-    texto: "Nossa árvore montada e cheia de sonhos embaixo dela. Que seja o primeiro de muitos natais juntos.",
-    rotation: "-2deg"
+    data: "05/12/2025",
+    titulo: "Nosso Conchego",
+    imagem: "/assets/38.2MSCalca.jpg",
+    texto: "Aquelas manhãs preguiçosas que eu não trocaria por nada. Só a gente, nosso cobertor e o tempo parando.",
+    rotation: "1deg"
   },
   {
+    id: 40,
+    mes: "Dezembro",
+    data: "14/12/2025",
+    titulo: "Presente Sincronizado",
+    imagem: "/assets/39.2MSCanecas.jpg",
+    texto: "Dizem que quando o casal convive muito, começa a pensar igual. Nossas canecas novas provam que estamos na mesma sintonia!",
+    rotation: "-4deg"
+  },
+  {
+    id: 41,
+    mes: "Dezembro",
+    data: "18/12/2025",
+    titulo: "Mais um Date pra Conta",
+    imagem: "/assets/40.MaisUmDate.jpg",
+    texto: "Um jantar especial para celebrar nós dois. Cada conversa nossa me faz te admirar ainda mais.",
+    rotation: "3deg"
+  },
+  {
+    id: 42,
+    mes: "Dezembro",
+    data: "20/12/2025",
+    titulo: "Date no Posto",
+    imagem: "/assets/41.MaisUmDatePosto.jpg",
+    texto: "Não importa o luxo do lugar, o que importa é a companhia. Até um lanche rápido vira um momento inesquecível com você.",
+    rotation: "-1deg"
+  },
+    {
     id: 43,
+    mes: "Dezembro",
+    data: "05/01/2026",
+    titulo: "Noite do Hambúrguer",
+    imagem: "/assets/42.NoiteDoHamburguer.jpg",
+    texto: "Fechando esses dois meses com chave de ouro (e muito queijo!). Você é o meu par perfeito até na hora da comilança.",
+    rotation: "2deg"
+  },
+  {
+    id: 44,
     mes: "Dezembro",
     data: "25/12/2025",
     titulo: "Natal",
@@ -387,7 +396,7 @@ export const memoriasData = [
     rotation: "2deg"
   },
   {
-    id: 44,
+    id: 45,
     mes: "Dezembro",
     data: "25/12/2025",
     titulo: "Passeio em Família",
@@ -396,7 +405,7 @@ export const memoriasData = [
     rotation: "-3deg"
   },
   {
-    id: 45,
+    id: 46,
     mes: "Dezembro",
     data: "26/12/2025",
     titulo: "Na Casinha do Papai Noel",
@@ -405,7 +414,7 @@ export const memoriasData = [
     rotation: "4deg"
   },
   {
-    id: 46,
+    id: 47,
     mes: "Dezembro",
     data: "28/12/2025",
     titulo: "Noite da Pizza",
@@ -414,7 +423,7 @@ export const memoriasData = [
     rotation: "-2deg"
   },
   {
-    id: 47,
+    id: 48,
     mes: "Janeiro",
     data: "01/01/2026",
     titulo: "Primeiro do Ano",
@@ -430,14 +439,6 @@ export const memoriasData = [
     imagem: "/assets/48.DatePintando.jpg",
     texto: "Fizemos a nossa própria 'Noite Estrelada'. Pintar com você transformou uma tela em branco em uma memória colorida.",
     rotation: "-1deg"
-  },
-  {
-    id: 49,
-    mes: "Janeiro",
-    data: "05/01/2026",
-    titulo: "Noite do Hambúrguer",
-    imagem: "/assets/42.NoiteDoHamburguer.jpg",
-    texto: "Fechando esses dois meses com chave de ouro (e muito queijo!). Você é o meu par perfeito até na hora da comilança.",
-    rotation: "2deg"
   }
+
 ];
